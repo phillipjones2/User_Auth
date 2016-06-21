@@ -1,0 +1,20 @@
+# PostgreSQL. Versions 8.2 and up are supported.
+#
+# Install the pg driver:
+#   gem install pg
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: playground
+  pool: 5
+  username: phillipjones
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: playground
+  pool: 5
+  username: phillipjones
+  password:
